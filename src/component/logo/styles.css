@@ -1,0 +1,19 @@
+.logo-name{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    .logo-name {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 425px) { 
+    .logo-name {
+        font-size: 16px;
+    }
+}
+
+

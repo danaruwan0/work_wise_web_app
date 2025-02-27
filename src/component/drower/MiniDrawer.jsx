@@ -24,7 +24,7 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import InputBase from '@mui/material/InputBase';
 import Logo from '../logo/Logo';
 
-const drawerWidth = 240;
+const drawerWidth = 210;
 
 const openedMixin = (theme) => ({
   width: drawerWidth,
@@ -196,6 +196,7 @@ export default function MiniDrawer() {
         </List>
         <Divider />
       </Drawer>
+
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <DrawerHeader />
         <Typography paragraph>Welcome to WorkWise Dashboard!</Typography>
